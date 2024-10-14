@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91396904-6f33-494f-aa5e-0efc06d01b65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/model/BitBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/BoardException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/IllegalMoveException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/misc/Deprecated/ServerConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728838759984</updated>
-      <workItem from="1728838760995" duration="2312000" />
+      <workItem from="1728838760995" duration="2931000" />
     </task>
     <servers />
   </component>
