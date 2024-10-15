@@ -1,6 +1,5 @@
 package model;
 
-package model;
 
 import ai.BitBoardManipulation;
 import ai.Evaluate;
@@ -227,32 +226,7 @@ public class BitBoard {
         return redSingleBitSet || redDoubleBitSet || redOnBlueBitSet;//No check for all necessary as otherwise would throw, blues turn otherwise
     }
 
-    //Static as it might be used in other classes too
-    //TODO: REMOVE LATER FOR PERFORMANCE REASONS WHEN NOT THROWING
-/*    public static void detectOverlap(long redSingles, long blueSingles, long redDoubles, long blueDoubles, long red_on_blue, long blue_on_red) {  //Should not be called after bug has been detected/only in tests for performance reasons
-        boolean noOverlap = true;
 
-        for (byte position = 0; position < 64; position++) {
-            int bitCount = 0;
-
-            if ((redSingles & (1L << position)) != 0) bitCount++;
-            if ((blueSingles & (1L << position)) != 0) bitCount++;
-            if ((redDoubles & (1L << position)) != 0) bitCount++;
-            if ((blueDoubles & (1L << position)) != 0) bitCount++;
-            if ((red_on_blue & (1L << position)) != 0) bitCount++;
-            if ((blue_on_red & (1L << position)) != 0) bitCount++;
-
-            if (bitCount > 1) {
-                noOverlap = false;
-                Tools.printInColor("Overlap detected at position: " + position + " " + Tools.indexToStringPosition(position), true);
-            }
-        }
-
-        if (!noOverlap) {
-            // Tools.printInColor("No overlap in bit positions.", false);
-            throw new IllegalStateException("Overlaps in bitboards detected");
-        }
-    }*/
 
     public static void detectOverlap(long redSingles, long blueSingles, long redDoubles, long blueDoubles, long red_on_blue, long blue_on_red) {
         boolean noOverlap = true;
@@ -591,7 +565,6 @@ public class BitBoard {
 
 
     public long getPossibleMovesDoubles(long doubles, boolean isRed) {//FIXED
-        // All occupied spaces
         long occupiedSpaces = redSingles | blueSingles | redDoubles | blueDoubles | red_on_blue | blue_on_red;
         long emptySpaces = ~occupiedSpaces & CORNER_MASK; // All empty spaces, excluding corners
 
@@ -956,7 +929,7 @@ public class BitBoard {
     }
 
     public void printWithBitboard(String comment, long bitboard){//Also shifts on purpose to make it more obvious
-        ///System.out.println(comment+"\n|\t\t\t"+this.toString().replace("\n","\n|\t\t\t")+"\n|"+"_".repeat(50));
+
         String toString = toString();
         String[] toStringSplit = toString.split("\n");
         String[] bitboardString = Tools.bitboardAsString(bitboard).split("\n");
@@ -974,7 +947,7 @@ public class BitBoard {
      * Method using emojis 😎 to display the JumpSturdy board effectively
      *
      * @return String representation with Emojis and multiple control characters for advanced visualisation
-     * Credits: Merthan Erdem
+     *
      */
     @Override
     public String toString() {
@@ -1070,7 +1043,6 @@ public class BitBoard {
 
         return "";
     }
-
 
 
 
