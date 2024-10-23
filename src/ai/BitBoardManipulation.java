@@ -567,7 +567,6 @@ public class BitBoardManipulation {
     }
 
     public static long getPossibleMovesDoubles(long doubles, boolean isRed,long redSingles, long blueSingles, long redDoubles, long blueDoubles, long red_on_blue, long blue_on_red) {//FIXED
-        // All occupied spaces
         long occupiedSpaces = redSingles | blueSingles | redDoubles | blueDoubles | red_on_blue | blue_on_red;
         long emptySpaces = ~occupiedSpaces & CORNER_MASK; // All empty spaces, excluding corners
 

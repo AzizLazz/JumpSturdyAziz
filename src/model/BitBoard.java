@@ -326,18 +326,6 @@ public class BitBoard {
         //TODO: changed the next part, lets just check if there are figures left, contest they would lose anyways and here it probably doesnt matter? Weird errors but performance gain
 
 
-/*        // Check if there are any possible moves for blue
-        else if (getPossibleMovesForTeam(false) == 0) {
-            // Check if there are any possible moves for red, if no -> draw
-            if (getPossibleMovesForTeam(true) == 0) return WINNER_DRAW;
-            else return WINNER_RED;
-        }
-        // Check if there are any possible moves for red
-        else if (getPossibleMovesForTeam(true) == 0) {
-            // Check if there are any possible moves for blue, if no -> draw
-            if (getPossibleMovesForTeam(false) == 0) return WINNER_DRAW;
-            else return WINNER_BLUE;
-        }*/
         return WINNER_ONGOING;
     }
 

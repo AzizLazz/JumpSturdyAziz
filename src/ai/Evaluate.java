@@ -54,12 +54,7 @@ public class Evaluate {
 
     @Deprecated
     public static int evaluateComplex(boolean isRed, long r, long b, long rr, long bb, long br, long rb) {
-/*        long ownSingles = isRed ? r : b;
-        long enemySingles = isRed ? b : r;
-        long ownDoubles = isRed ? rr : bb;
-        long enemyDoubles = isRed ? bb : rr;
-        long ownOnEnemy = isRed ? br : rb;
-        long enemyOnOwn = isRed ? rb : br;*/
+
 
         long redFigures = (r|rr|br);
         long blueFigures = (b|bb|rb);
@@ -148,12 +143,7 @@ public class Evaluate {
     }
 
     public static int evaluateComplex(long r, long b, long rr, long bb, long br, long rb) {
-/*        long ownSingles = isRed ? r : b;
-        long enemySingles = isRed ? b : r;
-        long ownDoubles = isRed ? rr : bb;
-        long enemyDoubles = isRed ? bb : rr;
-        long ownOnEnemy = isRed ? br : rb;
-        long enemyOnOwn = isRed ? rb : br;*/
+
 
         long redFigures = (r|rr|br);
         long blueFigures = (b|bb|rb);

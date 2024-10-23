@@ -56,7 +56,7 @@ public class ServerConnection {
     private static String processFEN(String fen) {
         // Assuming you have a method in SturdyJumpersAI to handle just FEN
         // Simulating that we're still playing as 'red' for simplicity
-        boolean isRed = false;  // You would set this according to your game logic
+        boolean isRed = true;  // You would set this according to your game logic
 
         BitBoard board = new BitBoard(fen); // Assuming constructor from FEN
         String bestMove = Tools.byteListToMoveSequence( new ai.MerthanAlphaBetaExperiment().findBestMove(board,isRed, (int) ZEIT));

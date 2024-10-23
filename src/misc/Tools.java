@@ -39,6 +39,8 @@ public class Tools {
         System.out.println(getAnsiColor(240) + "Medium grey text" + RESET);
         System.out.println(getAnsiColor(246) + "Medium grey text 2" + RESET);
         System.out.println(getAnsiColor(250) + "Light grey text" + RESET);
+
+        System.out.println( Tools.fenToString("3b01b0/1b02b01b01/1r06/1r01br2b01/6r01/8/2r01r0r02/3r0r0r0")) ;
     }
 
     public static void printInColor(String text, boolean isRed) {
@@ -164,6 +166,7 @@ public class Tools {
     public static String parseMoveToString(byte[] move){
         return Tools.indexToStringPosition(move[0])+"-"+Tools.indexToStringPosition(move[1]);
     }
+
     public static String lastRowMove(List<String> possibleMoves, boolean isRed){
         for(String move : possibleMoves){
             if( (move.charAt(4) == '8' & isRed == false)
@@ -268,9 +271,7 @@ public class Tools {
         });
     }
 
-    /*    public String cleanMove(String move){
 
-        }*/
     public static String fenToString(String fen) {
         // Replace numbers with corresponding number of empty squares
         for (int i = 1; i <= 8; i++) {
