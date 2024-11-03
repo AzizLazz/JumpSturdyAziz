@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="JumpSturdyAziz:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91396904-6f33-494f-aa5e-0efc06d01b65" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ai/BitBoardManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ai/BitBoardManipulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ai/Evaluate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ai/Evaluate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ai/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ai/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ai/SturdyJumpersAI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ai/SturdyJumpersAI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/misc/ServerConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/misc/ServerConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/misc/Tools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/misc/Tools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/BitBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/BitBoard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,32 +37,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Alphabeta.executor": "Run",
-    "Application.BitBoard.executor": "Run",
-    "Application.DynamicConsoleOutput.executor": "Run",
-    "Application.Game.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.ProgressBarExample.executor": "Run",
-    "Application.ServerConnection.executor": "Run",
-    "Application.Tools.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ToolWindowRun.ShowToolbar": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mohamedazizlazzem/Desktop/JumpSturdyAziz",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Alphabeta.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BitBoard.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DynamicConsoleOutput.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Game.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProgressBarExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServerConnection.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Tools.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mohamedazizlazzem/Desktop/JumpSturdyAziz&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/ai" />
@@ -156,7 +155,10 @@
       <option name="presentableId" value="Default" />
       <updated>1728838759984</updated>
       <workItem from="1728838760995" duration="14663000" />
-      <workItem from="1729428930649" duration="14691000" />
+      <workItem from="1729428930649" duration="15311000" />
+      <workItem from="1730132365575" duration="3748000" />
+      <workItem from="1730138902092" duration="86000" />
+      <workItem from="1730241935598" duration="5317000" />
     </task>
     <servers />
   </component>
